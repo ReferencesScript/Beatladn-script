@@ -1,0 +1,6 @@
+local args = {
+    [1] = "UGC_PeaceSign",
+    [2] = 0
+}
+
+game:GetService("ReplicatedStorage").TGSItemShops_BuyItem:InvokeServer(unpack(args))
